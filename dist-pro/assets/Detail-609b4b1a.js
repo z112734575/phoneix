@@ -1,1 +1,0 @@
-import{_ as t}from"./Detail.vue_vue_type_script_setup_true_lang-b54f33fe.js";import"./Descriptions-e67d2766.js";import"./index-64f984d7.js";import"./el-popper-76221944.js";import"./constants-ed4bea93.js";import"./index-2b45d2f5.js";import"./vnode-42b1e8ff.js";import"./use-form-common-props-741dd955.js";import"./el-tag-eb357b4f.js";export{t as default};
