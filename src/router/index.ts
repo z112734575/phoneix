@@ -77,15 +77,15 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
           affix: true
         }
       },
-      {
-        path: 'workplace',
-        component: () => import('@/views/Dashboard/Workplace.vue'),
-        name: 'Workplace',
-        meta: {
-          title: t('router.workplace'),
-          noCache: true
-        }
-      }
+      // {
+      //   path: 'workplace',
+      //   component: () => import('@/views/Dashboard/Workplace.vue'),
+      //   name: 'Workplace',
+      //   meta: {
+      //     title: t('router.workplace'),
+      //     noCache: true
+      //   }
+      // }
     ]
   },
   {
@@ -96,12 +96,12 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
       icon: 'ant-design:tool-filled',
       alwaysShow: true
     },
-    name: 'HandleShopify',
+    name: 'Handle',
     children: [
       {
         path: 'copy-svg',
         component: () => import('@/views/Handle/Icon.vue'),
-        name: 'CopySvg',
+        name: 'Copy_svg',
         meta: {
           title: '复制SVG'
         }
@@ -109,7 +109,7 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
     ]
   },
   {
-    path: '/Document',
+    path: '/document',
     component: Layout,
     meta: {
       title: '手册',
@@ -127,7 +127,7 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
         }
       }
     ]
-  }
+  },
   // {
   //   path: '/external-link',
   //   component: Layout,
