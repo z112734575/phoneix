@@ -107,6 +107,26 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
         }
       }
     ]
+  },
+  {
+    path: '/Document',
+    component: Layout,
+    meta: {
+      title: '手册',
+      icon: 'solar:document-bold',
+      alwaysShow: true
+    },
+    name: 'document',
+    children: [
+      {
+        path: 'copy-svg',
+        component: () => import('@/views/Document/copySvg.vue'),
+        name: 'CopySvg',
+        meta: {
+          title: '专辑顶部 Icons'
+        }
+      }
+    ]
   }
   // {
   //   path: '/external-link',
@@ -118,8 +138,8 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
   //       path: 'https://element-plus-admin-doc.cn/',
   //       name: 'DocumentLink',
   //       meta: {
-  //         title: t('router.document'),
-  //         icon: 'clarity:document-solid'
+  //         title: t('router.Document'),
+  //         icon: 'clarity:Document-solid'
   //       }
   //     }
   //   ]

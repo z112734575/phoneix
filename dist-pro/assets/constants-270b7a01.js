@@ -1,0 +1,1 @@
+import{cl as a,x as e,a as o,aZ as r,an as t}from"./index-a5c6c354.js";const n={prefix:Math.floor(1e4*Math.random()),current:0},s=Symbol("elIdInjection"),m=()=>r()?t(s,n):n,f=r=>{const t=m(),n=a();return e((()=>o(r)||`${n.value}-id-${t.prefix}-${t.current++}`))},l=Symbol("formContextKey"),x=Symbol("formItemContextKey");export{x as a,m as b,l as f,f as u};
