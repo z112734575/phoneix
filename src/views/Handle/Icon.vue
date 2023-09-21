@@ -207,7 +207,7 @@ const copySvg = (e: any) => {
   <ContentWrap title="svg">
     <div class="flex mr-12px flex-wrap">
       <div
-        class="flex flex-col justify-center items-center min-w-150px text-center h-150px hover:bg-#f0f0f0 hover-cursor-pointer hover:color-#363636 p-8px"
+        class="flex flex-col justify-center items-center w-150px text-center h-150px hover:bg-#f0f0f0 hover-cursor-pointer hover:color-#363636 p-8px"
         @click="copySvg"
         v-for="item in svgData"
         :key="item.name"
