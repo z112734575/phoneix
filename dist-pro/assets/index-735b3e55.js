@@ -1,1 +1,0 @@
-import{r as s}from"./index-6eaaf41d.js";const r=r=>s.post({url:"/user/login",data:r}),a=()=>s.get({url:"/user/loginOut"}),l=r=>s.get({url:"/role/list",params:r}),t=r=>s.get({url:"/role/list2",params:r});export{t as a,a as b,l as g,r as l};
