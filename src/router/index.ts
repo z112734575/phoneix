@@ -76,7 +76,7 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
           noCache: true,
           affix: true
         }
-      },
+      }
       // {
       //   path: 'workplace',
       //   component: () => import('@/views/Dashboard/Workplace.vue'),
@@ -105,6 +105,14 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
         meta: {
           title: '复制SVG'
         }
+      },
+      {
+        path: 'create-faq',
+        component: () => import('@/views/Handle/CreateFaq.vue'),
+        name: 'CreateFaq',
+        meta: {
+          title: '生成Q&A'
+        }
       }
     ]
   },
@@ -127,7 +135,7 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
         }
       }
     ]
-  },
+  }
   // {
   //   path: '/external-link',
   //   component: Layout,
