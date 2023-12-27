@@ -99,6 +99,14 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
     name: 'Handle',
     children: [
       {
+        path: 'diff-product',
+        component: () => import('@/views/Handle/DiffProduct.vue'),
+        name: 'DiffProduct',
+        meta: {
+          title: '产品对比'
+        }
+      },
+      {
         path: 'copy-svg',
         component: () => import('@/views/Handle/Icon.vue'),
         name: 'Copy_svg',
