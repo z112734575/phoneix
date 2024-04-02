@@ -102,7 +102,7 @@ const dynamicValidateForm = reactive({
   ],
   title: '',
   description: '',
-  progress: 1,
+  progress: "1",
   radio: '1'
 })
 const copyData = () => {
