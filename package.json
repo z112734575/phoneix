@@ -38,7 +38,7 @@
     "driver.js": "^1.2.1",
     "echarts": "^5.4.3",
     "echarts-wordcloud": "^2.1.0",
-    "element-plus": "^2.3.9",
+    "element-plus": "^2.6.3",
     "lodash-es": "^4.17.21",
     "mitt": "^3.0.1",
     "mockjs": "^1.1.0",

@@ -121,6 +121,14 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
         meta: {
           title: '生成Q&A'
         }
+      },
+      {
+        path: 'presale-product',
+        component: () => import('@/views/Handle/PresaleProduct.vue'),
+        name: 'Presale',
+        meta: {
+          title: '预售信息'
+        }
       }
     ]
   },
