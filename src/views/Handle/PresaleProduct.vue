@@ -44,15 +44,15 @@
         >
           <el-step
             title="步骤 1"
-            @click="dynamicValidateForm.progress = '1'"
+            @click="dynamicValidateForm.progress = 1"
           ></el-step>
           <el-step
             title="步骤 2"
-            @click="dynamicValidateForm.progress = '2'"
+            @click="dynamicValidateForm.progress = 2"
           ></el-step>
           <el-step
             title="步骤 3"
-            @click="dynamicValidateForm.progress = '3'"
+            @click="dynamicValidateForm.progress = 3"
           ></el-step>
         </el-steps>
       </ElFormItem>
@@ -102,7 +102,7 @@ const dynamicValidateForm = reactive({
   ],
   title: '',
   description: '',
-  progress: "1",
+  progress: 1,
   radio: '1'
 })
 const copyData = () => {
